@@ -51,14 +51,6 @@ class InventoryPage extends BasePage {
     async isFooterDisplayed(){
         return await this.footer.isDisplayed()
     }
-    // async getTwitterUrl() {
-    //     return await this.twitterLink.getAttribute('href')
-    // }
-    // async getFacebookUrl() {
-    //     return await this.facebookLink.getAttribute('href')
-    // }
-    // async getLinkedinUrl() {
-    //     return await this.linkedinLink.getAttribute('href')
-    // }
+
 }
 module.exports = new InventoryPage()
