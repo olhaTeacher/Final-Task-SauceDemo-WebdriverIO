@@ -5,7 +5,6 @@ class InventoryPage extends BasePage {
     //--------Dynamic product--------
 
     productTitle(productName){
-        // return $(`//div[@class='inventory_item_name' and text()='${productName}']`)
         return $(`//a[.//div[text()='${productName}']]`)
     }
 
